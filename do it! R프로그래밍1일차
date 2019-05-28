@@ -46,3 +46,11 @@ var3
 ## [1] "Hello! World is good!"
   
   
+#data에 mpg, x축에 hwy 변수 지정해 그래프 생성
+qplot(data=mpg, x=hwy)
+  
+#x축 drv, y축 hwy, 선 그래프 형태
+qplot(data=mpg, x=drv, y=hwy, geom="line")
+
+#qplot 함수 매뉴얼 출력
+?qplot
